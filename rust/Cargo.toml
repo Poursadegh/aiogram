@@ -36,6 +36,7 @@ rayon = "1.7"
 crossbeam = "0.8"
 dashmap = "5.4"
 lazy_static = "1.4"
+num_cpus = "1.15"
 
 # FFI and memory management
 libc = "0.2"

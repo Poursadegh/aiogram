@@ -5,6 +5,12 @@ use std::ptr;
 mod crypto;
 mod analysis;
 mod realtime;
+mod config;
+mod logging;
+mod cache;
+mod security;
+mod validation;
+mod performance;
 
 #[no_mangle]
 pub extern "C" fn analyze_text(text: *const c_char) -> *mut c_char {
